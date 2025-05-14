@@ -5,10 +5,15 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "build": "mkdir -p dist && cp index.js db.json dist/",
-    "start": "node dist/index.js"
+    "build": "npm install",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "22.x"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "json-server": "0.17.4"
   },
   "keywords": []

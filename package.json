@@ -5,13 +5,11 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "nodemon index.js localhost:8080"
+    "build": "mkdir -p dist && cp index.js db.json dist/",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "json-server": "0.17.4"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.4"
   },
   "keywords": []
 }

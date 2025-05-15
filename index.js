@@ -8,7 +8,7 @@ const server = express();
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 const middlewares = jsonServer.defaults();
 
-server.use("/api", middlewares, router);
+server.use("/", middlewares, router);
 server.listen(3000, () => {
   console.log("Server is running on port 3000");
 });

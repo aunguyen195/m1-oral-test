@@ -4,7 +4,7 @@
   "description": "instant api by json-server",
   "type": "commonjs",
   "scripts": {
-    "start": "json-server --watch db.json --port 8080"
+    "start": "json-server --watch db.json --port 8080 --host 0.0.0.0"
   },
   "engines": {
     "node": "20.x"
@@ -13,3 +13,4 @@
     "json-server": "0.17.4"
   }
 }
+

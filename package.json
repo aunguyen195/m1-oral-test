@@ -5,15 +5,12 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "build": "npm install",
     "start": "json-server --watch db.json --port 8080"
   },
   "engines": {
     "node": "20.x"
   },
   "dependencies": {
-    "express": "^5.1.0",
     "json-server": "0.17.4"
-  },
-  "keywords": []
+  }
 }

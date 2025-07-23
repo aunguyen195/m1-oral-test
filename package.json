@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "npm install",
-    "start": "node index.js"
+    "start": "json-server --watch db.json --port 8080"
   },
   "engines": {
     "node": "20.x"
